@@ -21,6 +21,6 @@
     "@remix-run/dev": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "vite": "latest"
+    "vite": "^6.0.0"
   }
 }
