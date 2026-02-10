@@ -1,0 +1,26 @@
+{
+  "name": "sunray-motors-billing-system",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "start": "remix-serve ./build/server/index.js",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/node": "latest",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
+    "isbot": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "vite": "latest"
+  }
+}
